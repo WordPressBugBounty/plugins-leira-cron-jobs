@@ -3,8 +3,8 @@ Contributors: arielhr1987, jlcd0894
 Donate link: https://github.com/arielhr1987  
 Tags: cron, scheduler, wp-cron, automation, admin tools  
 Requires at least: 4.1  
-Tested up to: 6.8  
-Stable tag: 1.2.11  
+Tested up to: 6.9  
+Stable tag: 1.2.12  
 Requires PHP: 5.4  
 License: GPLv2 or later  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
@@ -34,7 +34,7 @@ Key features include:
 == Frequently Asked Questions ==
 
 = Can I create new cron jobs with this plugin? =  
-Not at the moment. Leira Cron Jobs allows you to view, edit, run, and delete existing cron jobs, but not create new ones (yet).
+Not at the moment. Cron Jobs allows you to view, edit, run, and delete existing cron jobs, but not create new ones (yet).
 
 = What parts of a cron job can I edit? =  
 You can modify the schedule, next run time, and the arguments passed to the cron hook.
@@ -55,6 +55,10 @@ Currently, no. Managing schedules is not yet supported, but it's a planned featu
 10. Delete only jobs with missing hooks to prevent breaking functionality.
 
 == Changelog ==
+
+= 1.2.12 =
+* WordPress 6.9 compatibility check.
+* Added blueprint.json to enable Live Preview support.
 
 = 1.2.11 =
 * Improved the plugin's compatibility with WordPress 6.8
